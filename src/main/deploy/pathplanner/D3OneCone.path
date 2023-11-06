@@ -1,0 +1,84 @@
+{
+  "waypoints": [
+    {
+      "anchorPoint": {
+        "x": 1.75,
+        "y": 0.5
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.7830329543107895,
+        "y": 0.5
+      },
+      "holonomicAngle": -180.0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "ResetSensors",
+          "ArmGoUp"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "after",
+        "waitTime": 0.15
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 3.25,
+        "y": 0.5
+      },
+      "prevControl": {
+        "x": 2.6697978190988088,
+        "y": 0.5
+      },
+      "nextControl": {
+        "x": 3.830202180901191,
+        "y": 0.5
+      },
+      "holonomicAngle": 180.0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0.25
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 6.226225443903879,
+        "y": 0.5
+      },
+      "prevControl": {
+        "x": 4.703420633712652,
+        "y": 0.5
+      },
+      "nextControl": null,
+      "holonomicAngle": 180.0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    }
+  ],
+  "markers": [
+    {
+      "position": 0.1,
+      "names": [
+        "ArmGoHome"
+      ]
+    }
+  ]
+}
